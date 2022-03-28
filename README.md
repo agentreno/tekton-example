@@ -20,4 +20,10 @@ https://tekton.dev/docs/getting-started/#set-up-the-cli
 
 ## Running pipelines
 
+`kc apply -f hello-world/task-hello.yaml hello-world/pipeline-hello.yaml`
+
 `kc create -f hello-world/taskrun-hello.yaml` and observe logs.
+
+`kc create -f hello-world/pipelinerun-hello.yaml`
+
+

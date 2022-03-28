@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   generateName: hello-run-
   namespace: default
+  name: hello
 spec:
   inputs: {}
   outputs: {}
